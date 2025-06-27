@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Conéctate a Nuestro Wi-Fi Gratuito!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Disfruta de Wi-Fi Gratuito!</h1>
+        <p>Para conectarte, por favor mira este breve video:</p>
+
+        <div class="video-wrapper">
+            <video id="introVideo" controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture width="100%" height="auto" preload="auto">
+                <source src="https://www.ejemplo.com/tu_video_de_15_segundos.mp4" type="video/mp4">
+                Tu navegador no soporta el video. Por favor, actualiza tu navegador.
+            </video>
+        </div>
+
+        <button id="connectButton" disabled>Conectarse al Wi-Fi</button>
+
+        <p class="terms">Al conectarte, aceptas nuestros <a href="#">términos y condiciones</a>.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
